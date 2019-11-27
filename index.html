@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>HTML Academy: Погнали</title>
+</head>
+
+<body>
+
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="/img/logo-mobile-white.png" width="100" height="19" alt="Погнали">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toogle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">О сервисе</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Направления</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Попутчики</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item">
+            <a class="user-list__call" href="#">Звонок</a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__mail" href="#">Письмо</a>
+          </li>
+          <li class="user-list__item">
+            <a class="user-list__login" href="#">Авторизация</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+
+    <h1>В путешествия с крутыми попутчиками!</h1>
+    <p>"Лучшее приложение, что я видел в жизни!"</p>
+    <p>Мурат Эльтазин гланый редактор "гаджетлайф"</p>
+
+    <section class="menu">
+      <h2 class="visually-hidden">Меню</h2>
+
+      <ul class="menu__list">
+        <li class="menu__item">
+          <h3 class="menu__title">Выберите направление</h3>
+          <p>1</p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Изучите идеи путешественников</h3>
+          <p>2</p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Находите тех, кто похож на вас</h3>
+          <p>3</p>
+        </li>
+        <li class="menu__item">
+          <h3 class="menu__title">Путешествуйте вместе!</h3>
+          <p>4</p>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="service">
+      <h3 class="service__title">О сервисе</h3>
+      <p>Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и
+        черпайте вдохновение в </p>
+      <p>А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
+    </section>
+
+    <section class="direction">
+      <h3 class="direction__title">Направление</h3>
+      <p class="direction__description">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда
+        хотели бы отправиться и чем можно там заняться.</p>
+
+      <ul class="direction__list">
+        <li class="direction__item">
+          <h3 class="direction__name">Тайланд</h3>
+          <p class="direction__desc">Джунгли зовут!</p>
+          <p class="direction__users">18321</p>
+        </li>
+        <li class="direction__item">
+          <h3 class="direction__name">Франция</h3>
+          <p class="direction__desc">Трэ бьен, манифик!</p>
+          <p class="direction__users">12518</p>
+        </li>
+        <li class="direction__item">
+          <h3 class="direction__name">Чехия</h3>
+          <p class="direction__desc">Закоулки старой Европы</p>
+          <p class="direction__users">5326</p>
+        </li>
+      </ul>
+      <button type="button">Показать все</button>
+    </section>
+
+    <section class="travel-companions">
+      <h3 class="travel-companions__title">Попутчики</h3>
+      <p class="travel-companions__description"> Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному
+        нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
+      <p>Теперь можно легко найти единомышленников!</p>
+
+      <div class="travel-companions__block">
+        <p>99</p>
+        <p>level</p>
+        <div class="travel-companions__flags"></div>
+        <p>Таня Фирсова</p>
+        <p class="travel-companions__hashtags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+        <div class="travel-companions__icons"></div>
+      </div>
+
+      <div class="travel-companions__block">
+        <p>80</p>
+        <p>level</p>
+        <div class="travel-companions__flags"></div>
+        <p>Петя Демин</p>
+        <p class="travel-companions__hashtags">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+        <div class="travel-companions__icons"></div>
+      </div>
+
+      <button type="button">Показать всех </button>
+    </section>
+
+    <section class="profile">
+      <h3 class="profile__title">Добавьте свой профиль</h3>
+
+      <ul class="profile__criterias">
+        <li class="profile__list">
+          <p>Базовое размещение бесплатно</p>
+          <p>1</p>
+        </li>
+        <li class="profile__list">
+          <p>Вывод на первых позициях 99 руб./мес</p>
+          <p>2</p>
+        </li>
+        <li class="profile__list">
+          <p>Кастомный цвет карточки 59 руб./мес</p>
+          <p>3</p>
+        </li>
+      </ul>
+
+      <a href="#">Показать тарифы для бизнеса</a>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <a class="page-footer__logo">
+      <img class="page-header__logo-image" src="/img/logo-mobile-blue.png" width="96" height="15" alt="Погнали">
+    </a>
+
+    <div class="page-footer__social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a href="#">facebook</a>
+        </li>
+        <li class="social__item">
+          <a href="#">vkontakte</a>
+        </li>
+        <li class="social__item">
+          <a href="#">instagram</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="page-footer__copyright">
+      <b class="copyright__text">Разработано:</b>
+      <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
