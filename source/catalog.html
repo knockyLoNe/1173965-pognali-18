@@ -43,14 +43,90 @@
     </nav>
   </header>
 
+
+
+
   <main class="page-catalog">
 
     <h1 class="catalog__title">Попутчики</h1>
 
+    <h2>Подберите идеального попутчика</h2>
+
+    <h3 class="catalog__filters-title">Хобби</h3>
+
+    <fieldset class="catalog__filters-group">
+      <h3 class="catalog__filters-title">Музыка</h3>
+      <ul class="catalog__filters-list">
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="hard-rock" id="filler-1"
+            checked="">
+          <label class="checkbox__label" for="filler-1">Тяжелый рок</label>
+        </li>
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="russian-rap"
+            id="filler-2">
+          <label class="checkbox__label" for="filler-2">Русский рэп</label>
+        </li>
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="eurodance"
+            id="filler-3">
+          <label class="checkbox__label" for="filler-3">Евродэнс</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <h3 class="catalog__filters-title">Еда</h3>
+    <fieldset class="catalog__filters-group">
+      <h3 class="catalog__filters-title">Транспорт</h3>
+      <ul class="catalog__filters-list">
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="transport"
+            id="filler-1-plane" checked="">
+          <label class="checkbox__label" for="filler-1-plane">Самолет</label>
+        </li>
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="transport"
+            id="filler-2-bus" checked="">
+          <label class="checkbox__label" for="filler-2-bus">Автобус</label>
+        </li>
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="transport"
+            id="filler-2-bike">
+          <label class="checkbox__label" for="filler-3-bike">Велосипед</label>
+        </li>
+        <li class="catalot__filters-item">
+          <input class="filters__input filters__checkbox visually-hidden" type="checkbox" name="transport"
+            id="filler-2-run" checked="">
+          <label class="checkbox__label" for="filler-4-run">Бег</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="filters__group">
+      <h3 class="catalog__filters-title">Левел</h3>
+      <div class="price-controls">
+        <label class="min-number"><input class="min__input" name="min-number" type="text" value="30">
+        </label>
+        <label class="max-number"><input class="max__input" name="max-number" type="text" value="100"></label>
+      </div>
+      <div class="range">
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+        </div>
+      </div>
+    </fieldset>
+
+    <button type="button">Показать</button>
+
+
     <div class="catalog__travel-companions-block">
       <div class="page-catalog__main-person-information">
         <a href="#"><img></a>
-        <button>Лайк</button>
+        <button type="button">Лайк</button>
         <div>
           <a href="#">Таня Фирсова</a>
           <p>1,5 M</p>
@@ -86,7 +162,7 @@
     <div class="catalog__travel-companions-block">
       <div class="page-catalog__main-person-information">
         <a href="#"><img></a>
-        <button>Лайк</button>
+        <button type="button">Лайк</button>
         <div>
           <a href="#">Петя Демин</a>
           <p>150</p>
@@ -120,7 +196,7 @@
     <div class="catalog__travel-companions-block">
       <div class="page-catalog__main-person-information">
         <a href="#"><img></a>
-        <button>Лайк</button>
+        <button type="button">Лайк</button>
         <div>
           <a href="#">Марк Смолов</a>
           <p>1700</p>
@@ -148,7 +224,7 @@
     <div class="catalog__travel-companions-block">
       <div class="page-catalog__main-person-information">
         <a href="#"><img></a>
-        <button>Лайк</button>
+        <button type="button">Лайк</button>
         <div>
           <a href="#">Лариса Рогозова</a>
           <p>23</p>
